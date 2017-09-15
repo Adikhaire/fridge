@@ -1,0 +1,32 @@
+// $today = time();
+// print $today."</br>";
+// foreach ($list as $obj){
+//   $usebyDate = $obj->useby;
+//   print strtotime($usebyDate)."</br>";
+// if (strtotime($usebyDate) > $today ){
+//     echo $obj->useby."</br>";
+//     print $obj->item."</br>";
+//     print("not expired")."</br>";
+// } else{
+//     print("expired")."</br>";
+//     echo $obj->useby."</br>";
+//     print $obj->item."</br>";
+// }
+// }
+// foreach($list as $obj){
+//   if ($obj->useby.format('j/M/Y') < date('j/M/Y')){
+//     print "yes";
+//   }
+// }
+// print date('d/m/y');
+#and $obj->useby <= date('d/m/y')
+#echo date('d/m/y');
+#echo '<pre>' . print_r($recipe, true) . '</pre>';
+#var_dump($recipe[1]['ingredients'][1]['amount']);
+#var_dump($recipe[1]['name']);
+
+
+
+
+
+// $instance1 <- new fridge.read_csv($data[0][0],$data[0][1],$data[0][2],$data[0][3]);
